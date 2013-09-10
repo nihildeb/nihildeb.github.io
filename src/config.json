@@ -3,9 +3,9 @@
     "url": "http://localhost:8080",
     "name": "nick.hildebrant.org",
     "owner": "Nick Hildebrant",
-    "description": "mind dump",
-    "output":"../"
+    "description": "mind dump"
   },
+  "output":"../",
   "plugins": [
     "./plugins/paginator.coffee"
   ],
