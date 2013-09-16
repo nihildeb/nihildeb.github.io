@@ -5,9 +5,11 @@
     "owner": "Nick Hildebrant",
     "description": "mind dump"
   },
-  "output":"../",
+  "output": "../",
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "./plugins/data.coffee",
+    "wintersmith-livereload"
   ],
   "require": {
     "moment": "moment",

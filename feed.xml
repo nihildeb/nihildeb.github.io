@@ -5,9 +5,126 @@
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
     <description>mind dump</description>
-    <pubDate>Tue, 30 Apr 2013 02:00:00 +0200</pubDate>
+    <pubDate>Wed, 11 Sep 2013 12:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Ideas</title>
+      <link>http://localhost:8080/articles/ideas/</link>
+      <pubDate>Wed, 11 Sep 2013 12:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/ideas/</guid>
+      <author></author>
+      <description>&lt;p&gt;I get lots of ideas. Things I&amp;#39;d like to create. These ideas come often.
+So many and so often, I have a hard time seeing any one of them to fruition.
+These themes are all recurring ideas I have worked on in the past. I like
+to work on them iteratively, for short periods of a few months. Then I will
+dump an idea and start on a successive iteration of another idea. Here I
+attempt to catalog some of my work, and things to consider on the next
+iteration…&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;I plan to update this post, so this should become something of a sitemap over time&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rev.1: 2013-09-11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;h3&gt;Web Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Node&lt;/li&gt;
+&lt;li&gt;Angular&lt;/li&gt;
+&lt;li&gt;Faye&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://localhost:8080/pages/&quot;&gt;Presentation&lt;/a&gt; / InfoGraph&lt;/li&gt;
+&lt;li&gt;D3 &lt;a href=&quot;http://localhost:8080/d3/&quot;&gt;playground&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://vimeo.com/29458354&quot;&gt;Mike Bostock - D3 - Data Visualization Meetup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://vimeo.com/35005701&quot;&gt;First steps in data visualisation using d3.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Rhythm / Repeatable Sequences&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Euclidean Algorythm&lt;/li&gt;
+&lt;li&gt;Wave Oscillators&lt;h3&gt;Teach Children to Program&lt;/h3&gt;
+&lt;h3&gt;Teach Geometry / Geometric Physics&lt;/h3&gt;
+&lt;h3&gt;BotNet Scale Automation (Geppetto)&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More a combination and refinement of prior art than anything new.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web Interface which is inspired by Final Builder.&lt;/li&gt;
+&lt;li&gt;Configuration Management inspired by Chef / SMS&lt;/li&gt;
+&lt;li&gt;Event driven / Message Passing Interfaces allowing complex interactions&lt;/li&gt;
+&lt;li&gt;Node/Faye/Redis via sockets should handle botnet scale numbers in realtime&lt;/li&gt;
+&lt;li&gt;Local Bot Agent is dumb. Knows only to notify Manager, validate keys, and thin wrapper around commands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unstoppable Internets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;gzip &amp;amp; encrypt a file to share&lt;ul&gt;
+&lt;li&gt;support AES256 shared passwords as “channels”&lt;/li&gt;
+&lt;li&gt;support pub key by publishing to channel named sha1.sum(email)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;create a magnet URI named [crypt_file_sha1_sum].magnet&lt;/li&gt;
+&lt;li&gt;publish magnet link&lt;/li&gt;
+&lt;li&gt;improve speed via expansive network of trackers&lt;/li&gt;
+&lt;li&gt;upvote = seed&lt;/li&gt;
+&lt;li&gt;implementation idea: angular app on self hosted node.js web/torrent server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Relentless Tester Monkey&lt;/h3&gt;
+&lt;p&gt;I work with a lot of people who write a lot of code to test our software. It seems to me to be quite possible to write a test driver which just clicks everywhere and records what happens. The app would just essentially discover all of the testable interactions in the AUT. The tester no longer needs to code, but is needed to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create terminal actions which stop the monkey from running in circles&lt;/li&gt;
+&lt;li&gt;Motivate the monkey to discover other parts of the AUT with more depth&lt;/li&gt;
+&lt;li&gt;Label the interactions for sensable error reporting&lt;/li&gt;
+&lt;li&gt;Carve out important recorded sequences to ensure reliable regression testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Extract CIA Factbook as Time Series API/JSON&lt;/h3&gt;
+&lt;p&gt;There is the possibility for some very interesting studies in this data I believe. The problem is getting the data out of the book. It‘s all formatted in presentable HTML format which changes from year to year. It’s nice for reading, but the data is not really accessible this way. It would be great to extract it, even merge in some UN / WorldBank data even.&lt;/p&gt;
+&lt;h2&gt;Tangible&lt;/h2&gt;
+&lt;h3&gt;TUI - reactivision&lt;/h3&gt;
+&lt;h2&gt;Theoretical&lt;/h2&gt;
+&lt;h3&gt;Learning / Teaching&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;How people think&lt;ul&gt;
+&lt;li&gt;Body / Interactive&lt;/li&gt;
+&lt;li&gt;Right / Spatial&lt;/li&gt;
+&lt;li&gt;Left / Symbolic&lt;h3&gt;The Future of the Puppet Show&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sorry Sitcoms&lt;/li&gt;
+&lt;li&gt;Television Production Costs&lt;/li&gt;
+&lt;li&gt;Impact on the Action Figure&lt;/li&gt;
+&lt;li&gt;Kill Mickey Mouse&lt;h3&gt;The Shortest Presidency&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;Gaming the American Electoral System&lt;/li&gt;
+&lt;li&gt;Against Two Parties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;TwoTeen - The Number&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Divisibility&lt;/li&gt;
+&lt;li&gt;History&lt;/li&gt;
+&lt;li&gt;Vedic&lt;/li&gt;
+&lt;li&gt;Base 10&lt;/li&gt;
+&lt;li&gt;Currency&lt;/li&gt;
+&lt;li&gt;Evil Number 5&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>A New Beginning</title>
+      <link>http://localhost:8080/articles/a-new-beginning/</link>
+      <pubDate>Tue, 10 Sep 2013 23:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/a-new-beginning/</guid>
+      <author></author>
+      <description>&lt;p&gt;it has been a long time since I had a website I spent any time on.
+I have been in hiding for the last couple of years, but the time has come to take the mask off once again.
+More to come, some from the past, some from the future. Presently I am just writing.&lt;/p&gt;
+&lt;h2&gt;Expect great things…&lt;/h2&gt;
+</description>
+    </item>
     <item>
       <title>README</title>
       <link>http://localhost:8080/articles/hello-world/</link>

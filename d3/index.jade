@@ -1,0 +1,17 @@
+
+extends layout
+
+block header
+  h1= page.title
+  script(src='d3.v3.js')
+
+block content
+  article.article
+    section.content!= typogr(page.html).typogrify()
+
+block prepend footer
+  div.nav
+    a(href=contents.index.url) « Full blog
+
+
+
