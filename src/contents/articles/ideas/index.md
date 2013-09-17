@@ -18,21 +18,38 @@ I plan to update this post, so this should become something of a sitemap over ti
 
 * Rev.1: 2013-09-11
 
-## Software
-### Web Development
-* Node
-* Angular
-* Faye
-* [Presentation](/pages/) / InfoGraph
+###  Web Development
+
+Stack of the day is:
+
+* Server: Node with Express and Faye
+* Client: Angular
+* Data: Redis
+* [Presentation](/pages/)
+  * [Reveal](https://github.com/hakimel/reveal.js)
 * D3 [playground](/d3/)
-* * [Mike Bostock - D3 - Data Visualization Meetup](http://vimeo.com/29458354)
-* * [First steps in data visualisation using d3.js](http://vimeo.com/35005701)
+ * [Mike Bostock - D3 - Data Visualization Meetup](http://vimeo.com/29458354)
+ * [First steps in data visualisation using d3.js](http://vimeo.com/35005701)
+* [JS DocBuilder Example](https://github.com/mohayonao/subcollider.js/blob/master/Gruntfile.coffee)
 
 ### Rhythm / Repeatable Sequences
-* Euclidean Algorythm
-* Wave Oscillators
+
+* [Euclidean Algorithm](http://en.wikipedia.org/wiki/Algorithm#Euclid.E2.80.99s_algorithm) DONE
+* [Wave Oscillators as Sequencers](http://www.youtube.com/watch?v=gQzq47Ti0yU) DONE
+* [Node Midi](https://github.com/justinlatimer/node-midi) DONE
+
+* Next Up
+
+  * Do it all in the browser with Angular
+  * [Timbre Browser Synth](http://mohayonao.github.io/timbre.js/)
+  * [SubCollider (supercollider for the browser)](http://mohayonao.github.io/subcollider.js/)
+
 ### Teach Children to Program
+
 ### Teach Geometry / Geometric Physics
+
+Recently had my mind blown seeing the presentation "Stop Drawing Dead Fish" and the geometric implementation of a spring.
+
 ### BotNet Scale Automation (Geppetto)
 
 More a combination and refinement of prior art than anything new.
