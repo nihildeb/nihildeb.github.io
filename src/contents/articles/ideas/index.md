@@ -85,9 +85,19 @@ I work with a lot of people who write a lot of code to test our software. It see
 
 There is the possibility for some very interesting studies in this data I believe. The problem is getting the data out of the book. It's all formatted in presentable HTML format which changes from year to year. It's nice for reading, but the data is not really accessible this way. It would be great to extract it, even merge in some UN / WorldBank data even.
 
+### Learn Python / Blender API
+
 ## Tangible
 ### TUI - reactivision
 ## Theoretical
+
+### Functional Asynchronicity Talk
+* A talk for Angular / Node / Redis / ETAS
+  * D3 for an Osci
+  * Angular for sync'd form / Osci config / Data Generator Inputs
+  * Redis for pub sub data
+  * Faye for sockets
+
 ### Learning / Teaching
 * How people think
  * Body / Interactive
